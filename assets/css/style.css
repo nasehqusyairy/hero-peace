@@ -19,7 +19,22 @@
   #section6 .card{
     width: 400px!important;
   }
+
+  #section7 .card-body{
+    height: 300px;
+  }
+
+  #section7 .card-body img{
+    height: 150px;
+  }
+
+  #section7 .card-body img{
+    width: unset;
+  }
   
+}
+#section7 .card-body img{
+  max-width: 100%;
 }
 
 #section6 .card{
