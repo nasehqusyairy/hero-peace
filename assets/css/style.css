@@ -31,6 +31,10 @@
   #section7 .card-body img{
     width: unset;
   }
+
+  #hero p{
+    text-align: left;
+  }
   
 }
 #section7 .card-body img{
@@ -58,14 +62,6 @@ section {
   background-image: url(../img/hero.png);
   background-size: cover;
   background-position: bottom;
-}
-
-#section3 {
-  background-color: #fff;
-  background-image: url(../img/bottom.png);
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 #section3 .card {
