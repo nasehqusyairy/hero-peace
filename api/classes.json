@@ -1,0 +1,64 @@
+{
+  "classes": [
+    {
+      "title": "Jadi Publisher Handal: Manfaatkan Caption untuk Menarik Perhatian Generasi Z...",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
+      "category": "Publisher",
+      "price": 150000,
+      "discount": 0,
+      "isOnline": true,
+      "target": "public",
+      "image": "./assets/img/class1.jpeg"
+    },
+    {
+      "title": "Pahami Menulis Artikel: Ramai di Kunjungi dan Tidak Membosankan",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
+      "category": "Kreator",
+      "price": 120000,
+      "discount": 65000,
+      "isOnline": true,
+      "target": "public",
+      "image": "./assets/img/class2.jpeg"
+    },
+    {
+      "title": "Cara Bikin Konten Menarik: Pasti Disukai banyak Generasi Z...",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
+      "category": "Kreator",
+      "price": 100000,
+      "discount": 0,
+      "isOnline": true,
+      "target": "member",
+      "image": "./assets/img/class3.jpeg"
+    },
+    {
+      "title": "Strategi Konten di Lirik banyak orang tanpa ribet dan cepet banget...",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
+      "category": "Publisher",
+      "price": 135000,
+      "discount": 135000,
+      "isOnline": true,
+      "target": "member",
+      "image": "./assets/img/class4.jpeg"
+    },
+    {
+      "title": "Cara Buat Infografis Keren: Cuma pake HP bisa sekelas PC",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
+      "category": "Kreator",
+      "price": 110000,
+      "discount": 0,
+      "isOnline": true,
+      "target": "member",
+      "image": "./assets/img/class5.jpeg"
+    },
+    {
+      "title": "Cara Mulai Kampanye Anti Hoax: Kiat-kiat memulai jadi Publisher Hero Peace",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
+      "category": "Publisher",
+      "price": 145000,
+      "discount": 145000,
+      "isOnline": true,
+      "target": "member",
+      "image": "./assets/img/class6.jpeg"
+    }
+  ]
+}

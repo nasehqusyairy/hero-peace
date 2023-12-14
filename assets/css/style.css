@@ -1,0 +1,172 @@
+@media screen and (min-width: 992px) {
+
+  .nav-item {
+    margin-left: 1rem;
+  }
+
+  .nav-item .btn {
+    margin-left: .5rem;
+  }
+
+  .navbar .container::before {
+    height: 100%;
+  }
+
+  #section4 .card{
+    min-height: 450px;
+  }
+
+  #section6 .card{
+    width: 400px!important;
+  }
+  
+}
+
+#section6 .card{
+  width: 300px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 158, 219, 0.15) !important;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+#hero {
+  background-color: #00b5f5;
+  background-image: url(../img/hero.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#section3 {
+  background-color: #fff;
+  background-image: url(../img/bottom.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#section3 .card {
+  border-radius: 50px;
+}
+
+#section3 .card .card-body {
+  padding: 50px;
+}
+
+#section4,#section6{
+  background-color: #efefef;
+}
+
+#section4 h3{
+  color: var(--bs-dark);
+}
+
+#section4 .card{
+  border-radius: 20px;
+  border: none;
+}
+
+#section4 .card-body{
+  padding: 50px;
+}
+
+#section4 .card, #section4 .card path,#section4 .card h3 {
+  transition: all .5s;
+}
+#section4 .card:hover path {
+  fill: #fff;
+}
+#section4 .card:hover {
+  background-color: var(--bs-dark);
+  color: #fff;
+}
+#section4 .card:hover h3 {
+  color: #fff;
+}
+#gambarcarousel{
+  border-radius: 30px;
+}
+
+.navbar {
+  box-shadow: 0 0.5rem 1rem rgba(0, 255, 255, 0.15);
+}
+
+.navbar .container::before {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  top: 0;
+  background-color: #d00;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-light {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+  outline-color: rgba(255, 255, 255, .1);
+}
+
+.btn {
+  font-size: .8rem;
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+
+
+.navbar-fixed {
+  position: relative;
+  height: 60px;
+}
+
+
+.navbar-brand img {
+  margin-left: 25px;
+  position: relative;
+  z-index: 2;
+}
+
+hr.dashed {
+  border-top: 3px dashed #fff;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button {
+  padding: 25px 50px;
+  margin-bottom: 2rem;
+  border: 2px solid var(--bs-dark);
+  border-radius: 20px !important;
+  font-weight: 600;
+  box-shadow: 0 0.5rem 1rem rgba(0, 158, 219, 0.15);
+  font-size: 24px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border: 2px solid var(--bs-dark);
+}
+
+.accordion-button:not(.collapsed) {
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: var(--bs-dark);
+}
+
+.accordion-body {
+  margin-bottom: 1rem;
+}
