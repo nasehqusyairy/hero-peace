@@ -76,7 +76,7 @@ section {
   padding: 50px;
 }
 
-#section4,#section6{
+#section6{
   background-color: #efefef;
 }
 
@@ -86,7 +86,7 @@ section {
 
 #section4 .card{
   border-radius: 20px;
-  border: none;
+  /* border: none; */
 }
 
 #section4 .card-body{

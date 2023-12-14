@@ -5,9 +5,9 @@
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
       "category": "Publisher",
       "price": 150000,
-      "discount": 0,
+      "discount": 150000,
       "isOnline": true,
-      "target": "public",
+      "target": "member",
       "image": "./assets/img/class1.jpeg"
     },
     {
@@ -15,9 +15,9 @@
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
       "category": "Kreator",
       "price": 120000,
-      "discount": 65000,
+      "discount": 120000,
       "isOnline": true,
-      "target": "public",
+      "target": "member",
       "image": "./assets/img/class2.jpeg"
     },
     {
@@ -25,7 +25,7 @@
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
       "category": "Kreator",
       "price": 100000,
-      "discount": 0,
+      "discount": 100000,
       "isOnline": true,
       "target": "member",
       "image": "./assets/img/class3.jpeg"
@@ -45,7 +45,7 @@
       "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum facilis consectetur eum",
       "category": "Kreator",
       "price": 110000,
-      "discount": 0,
+      "discount": 110000,
       "isOnline": true,
       "target": "member",
       "image": "./assets/img/class5.jpeg"
