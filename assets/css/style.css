@@ -37,8 +37,25 @@
   }
   
 }
+
+#section9{
+  /* padding: 0; */
+}
+
+#section9 .nav .nav-link.active{
+  /* border-radius: 0; */
+}
+#section9 .nav .nav-link{
+  padding: 1rem .5rem;
+}
+
 #section7 .card-body img{
   max-width: 100%;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0,.5));
+}
+
+#section8 .card{
+  position: relative;
 }
 
 #section6 .card{
@@ -72,7 +89,7 @@ section {
   padding: 50px;
 }
 
-#section6{
+#section6,#caraKerja{
   background-color: #efefef;
 }
 
@@ -106,15 +123,11 @@ section {
   border-radius: 30px;
 }
 
-.navbar {
-  box-shadow: 0 0.5rem 1rem rgba(0, 255, 255, 0.15);
-}
-
 .navbar .container::before {
   content: "";
   position: absolute;
   height: 70px;
-  width: 100px;
+  width: 200px;
   top: 0;
   background-color: #d00;
 }
@@ -144,7 +157,7 @@ section {
 
 
 .navbar-brand img {
-  margin-left: 25px;
+  margin-left: 5px;
   position: relative;
   z-index: 2;
 }
