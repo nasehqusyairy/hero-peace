@@ -12,14 +12,15 @@
     height: 100%;
   }
 
-  #section4 .card{
+  #section4 .card {
     min-height: 450px;
   }
 
-  #section6 .card{
-    width: 400px!important;
+  #section6 .card {
+    width: 400px !important;
   }
 
+<<<<<<< Updated upstream
   #section7 .card-body{
     height: 300px;
   }
@@ -36,16 +37,18 @@
     text-align: left;
   }
   
+=======
+>>>>>>> Stashed changes
 }
 #section7 .card-body img{
   max-width: 100%;
 }
 
-#section6 .card{
+#section6 .card {
   width: 300px;
 }
 
-.text-justify{
+.text-justify {
   text-align: justify;
 }
 
@@ -72,37 +75,48 @@ section {
   padding: 50px;
 }
 
+<<<<<<< Updated upstream
 #section6{
+=======
+#section4,
+#section6 {
+>>>>>>> Stashed changes
   background-color: #efefef;
 }
 
-#section4 h3{
+#section4 h3 {
   color: var(--bs-dark);
 }
 
-#section4 .card{
+#section4 .card {
   border-radius: 20px;
   /* border: none; */
 }
 
-#section4 .card-body{
+#section4 .card-body {
   padding: 50px;
 }
 
-#section4 .card, #section4 .card path,#section4 .card h3 {
+#section4 .card,
+#section4 .card path,
+#section4 .card h3 {
   transition: all .5s;
 }
+
 #section4 .card:hover path {
   fill: #fff;
 }
+
 #section4 .card:hover {
   background-color: var(--bs-dark);
   color: #fff;
 }
+
 #section4 .card:hover h3 {
   color: #fff;
 }
-#gambarcarousel{
+
+#gambarcarousel {
   border-radius: 30px;
 }
 
@@ -180,4 +194,58 @@ hr.dashed {
 
 .accordion-body {
   margin-bottom: 1rem;
+}
+
+.jumbotron {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.jumbotron .container .profile-img,
+.jumbotron .container h1,
+.jumbotron .container h4,
+.jumbotron .container hr,
+.jumbotron .container a {
+  position: relative;
+}
+
+.jumbotron .parallax-img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* .jumbotron .profile-img {
+  width: 25%;
+  margin: 20px 0;
+  border-radius: 100%;
+  border: 8px solid #eee;
+  -moz-box-shadow: 0px 0px 20px #ccc;
+  -webkit-box-shadow: 0px 0px 20px #ccc;
+  box-shadow: 0px 0px 20px #ccc;
+  filter: hue-rotate(30deg);
+  -webkit-filter: hue-rotate(30deg);
+  -moz-filter: hue-rotate(30deg);
+  -o-filter: hue-rotate(30deg);
+  
+  filter: saturate(0);
+  -webkit-filter: saturate(0);
+  -moz-filter: saturate(0);
+  -o-filter: saturate(0);
+
+} */
+
+.jumbotron hr {
+  width: 50%;
+}
+
+.jumbotron h4 {
+  max-width: 50%;
+  margin: 0 auto 20px;
 }
